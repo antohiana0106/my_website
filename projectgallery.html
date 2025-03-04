@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheetgallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <title>
+    Ana Antohi Portfolio Projects
+  </title>
+
+</head>
+
+<body>
+
+
+  <div class="navcontainer">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projectgallery.html">Projects</a></li>
+          <li><a href="about me.html">About me</a></li>
+          <li><a href="contactinfo.html">Contact me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main">
+      <h1 class="title">
+        Projects
+      </h1>
+
+      <h2 class="subtitle">
+        Main Projects
+      </h2>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="images/zoetrope 2.png">
+          <div class="card-content">
+            <h3>Zoetrope</h3>
+            <p>Zoetrope, powered by an Arduino, that shows a flying dragon as it spins and looks up into the
+              into the upper part. When the aluminum foil is touched, the zoetrope starts to rotate.
+              The direction of rotation can be changed with the switch, while the duration of spinning
+              can be changed with the knob on the right.
+              The sensor is a touch sensor and the actuator is a motor.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/cat robot 1.jpg">
+          <div class="card-content">
+            <h3>Cat robot</h3>
+            <p>A carboard cat that looks as a laser pointer on the screen. The sensors used for this project
+              are two light sensors and a button and the actuators are a servo and an LED. When the button
+              is pressed the LED lights up, the background of the Processing screen changes, and some
+              notes on a virtual synth are being played. The laser pointer on screen and the servo
+              in the cat's neck is controlled by the two light sensors that follow the laser movement.
+              Serial and MIDI data is used to communicate between Arduino, Processing, and Dexed (the virtual synth
+              program).</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/3d art 2.png">
+          <div class="card-content">
+            <h3>Wallart CO2 meter</h3>
+            <p>Turning a CO2 detector into an aesthetic design that actually makes people aware of the gradual
+              increase of CO2 indoors. Using a color signal, the 3D art changes color from white to red
+              depending on the CO2 level, from normal (white) to dangerous (red). It measures not only CO2 in ppm,
+              but also temperature and humidity (which are also measured with a normal CO2 detector).
+              The statistics can be checked on a web server by scanning a QR code. The hardware used is an ESP8266 chip,
+              CO2 meter as the sensor, and LEDs as the actuator, all covered by a 3D printed design.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/image.png">
+          <div class="card-content">
+            <h3>Cat VS Raccoon</h3>
+            <p>A miserable cat, trapped in a bleak black-and-white world finally snaps - destroying an old
+              vase filled to the brim with paint and becoming a living paintbrush. Wanting to restore the colors,
+              he ventures outside, leaving a trail of rainbow destruction in his wake—but the raccoon king,
+              sworn to keep the world colorless, will do anything to stop him.
+
+              Following
+              <a href="https://antohiana05.itch.io/japanese-house-interactive" target=_blank>
+                this link
+              </a>
+              you can PLAY IT yourself.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Xpedal.png">
+          <div class="card-content">
+            <h3>XPEDAL</h3>
+            <p>XPedal is a game-changing device designed to keep esports players active and injury-free –
+              a desk pedal built to keep gamers moving while they game. It reduces RSI risks, improves blood
+              circulation—without distracting you from your matches. It’s packed with smart tech that syncs
+              with your PC and adapts in real time. When the action heats up, the pedal eases off; during
+              breaks, it adds resistance to keep you moving. Stop pedaling, and it gives you a gentle sound
+              reminder to resume.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/ComingSoon.png">
+          <div class="card-content">
+            <h3>AI....</h3>
+            <p>Coming soon...</p>
+          </div>
+        </div>
+      </div> <!-- Close the card container for Arduino projects -->
+
+      <h2 class="subtitle">
+        Blender and Unity
+      </h2>
+
+      <div class="card2-container">
+        <div class="card2">
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn-japanese-house" id="radio1">
+              <input type="radio" name="radio-btn-japanese-house" id="radio2">
+              <input type="radio" name="radio-btn-japanese-house" id="radio3">
+              <input type="radio" name="radio-btn-japanese-house" id="radio4">
+
+              <div class="slide first">
+                <img src="images/jap house 0.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/jap house 1.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/jap house 2.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/jap house 3.png" alt="">
+              </div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+            </div>
+
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+
+            <div class="card-content">
+              <h3>Japanese house</h3>
+              <p>The Japanese house was entirely made in Blender. It was imported in Unity
+                where a terrain, vegetation, and a sun cycle were added to create a
+                game effect. An avatar was also placed so the user can walk around this game world. When being
+                close to
+                the house's doors,
+                they open so you can also explore the inside of the house.
+                Following
+                <a href="https://antohiana05.itch.io/japanese-house-interactive" target=_blank>
+                  this link
+                </a>
+
+                you can try it yourself.
+              </p>
+            </div>
+          </div>
+          <script type="text/javascript">
+            var counter = 1;
+            setInterval(function () {
+              document.getElementById('radio' + counter).checked = true;
+              counter++;
+              if (counter > 4) {
+                counter = 1;
+              }
+            }, 5000);
+          </script>
+        </div>
+      </div>
+
+      <div class="card2-container">
+        <div class="card2">
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn-japanese-house" id="radio1">
+
+              <!-- Video Tag with autoplay and controls -->
+              <div class="slide first">
+                <video src="images/spider.mp4" alt="Spider Walking Creature" autoplay loop muted>
+                  <!-- Optional fallback text -->
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+              </div>
+            </div>
+
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+            </div>
+
+            <div class="card-content">
+              <h3>Spider</h3>
+              <p>
+                Modeled after Polyfjord's
+                <a href="https://www.youtube.com/watch?v=ktXD_WRMY8E" target="_blank">
+                  Tutorial: Making a Mechanical Walking Creature in Blender
+                </a>
+              </p>
+            </div>
+          </div>
+
+
+          <script type="text/javascript">
+            var counter = 1;
+            setInterval(function () {
+              document.getElementById('radio' + counter).checked = true;
+              counter++;
+              if (counter > 4) {
+                counter = 1;
+              }
+            }, 5000);
+          </script>
+        </div>
+      </div>
+
+      <div class="card2-container">
+        <div class="card2">
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn-ballista" id="radio5">
+              <input type="radio" name="radio-btn-ballista" id="radio6">
+              <input type="radio" name="radio-btn-ballista" id="radio7">
+
+              <div class="slide first">
+                <img src="images/leonardo 1.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/leonardo 2.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/leonardo 3.png" alt="">
+              </div>
+
+              <div class="navigation-auto">
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+                <div class="auto-btn7"></div>
+              </div>
+            </div>
+
+            <div class="navigation-manual">
+              <label for="radio5" class="manual-btn"></label>
+              <label for="radio6" class="manual-btn"></label>
+              <label for="radio7" class="manual-btn"></label>
+            </div>
+
+            <div class="card-content">
+              <h3>Ballista</h3>
+              <p>The weapon was modelled in Blender, using Leonardo Da Vinci's sketch as inspiration.
+                It was imported in Unity where it was placed on a terrain with vegetation to create a game effect.
+                An avatar was also placed so the user can walk around. As you approach the weapon, the top part begins
+                to spin. You can try it for yourself following
+                <a href="https://antohiana05.itch.io/leonardo-da-vinci-multi-catapult" target=_blank>
+                  this link.
+                </a>
+              </p>
+            </div>
+          </div>
+          <script type="text/javascript">
+            var counter2 = 1;
+            setInterval(function () {
+              document.getElementById('radio' + (counter2 + 4)).checked = true;
+              counter2++;
+              if (counter2 > 3) {
+                counter2 = 1;
+              }
+            }, 5000);
+          </script>
+        </div>
+      </div>
+
+      <h2 class="subtitle">
+        Drawings/ Paintings
+      </h2>
+
+      <div class="container">
+        <div class="image-container">
+          <div class="image"><img src="images/painting 3.jpg"></div>
+          <div class="image"><img src="images/drawing 3.jpg"></div>
+          <div class="image"><img src="images/painting 1.jpg"></div>
+          <div class="image"><img src="images/drawing 1.jpg"></div>
+          <div class="image"><img src="images/painting 4.jpg"></div>
+          <div class="image"><img src="images/painting 5.jpg"></div>
+        </div>
+        <div class="popup-image">
+          <span>&times;</span>
+          <img src="images/9655dc4518ca44fc32216411b0072f02.png" alt="">
+        </div>
+
+        <script>
+          document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+              document.querySelector('.popup-image').style.display = 'block';
+              document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+          });
+
+          document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+          }
+        </script>
+      </div>
+    </div>
+
+    <footer>
+      <div class="Navfooter">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/ana-maria-antohi-199a01246/" target="_blank">Linkedin</a></li>
+          <li><a href="contactinfo.html">Contact me</a></li>
+        </ul>
+      </div>
+    </footer>
+
+</body>
+
+</html>
